@@ -18,6 +18,6 @@ $ `docker exec -it ubuntu /bin/bash`
 $ `docker commit -p container_id new_container_name`
 
 ## Run in detached mode with mounted directories
-$ `docker run -v /dir-on-host:/dir-in-container -id --name ubuntu ubuntu:20.04`
+$ `docker run -v /dir-on-host:/dir-in-container -id --name ubuntu ubuntu:20.04`\n
 $ `docker exec -it ubuntu /bin/bash`
 
