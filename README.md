@@ -7,11 +7,11 @@ $ `docker pull ubuntu:20.04`
 $ `docker run -it --rm --name ubuntu ubuntu:20.04 /bin/bash`
 
 ## Run with connected bash with no need remove
-$ `docker run -it --name ubuntu ubuntu:20.04 /bin/bash`
+$ `docker run -it --name ubuntu ubuntu:20.04 /bin/bash`<br>
 $ `docker exec -it ubuntu /bin/bash`
 
 ## Run in detached mode
-$ `docker run -id --name ubuntu ubuntu:20.04`
+$ `docker run -id --name ubuntu ubuntu:20.04`<br>
 $ `docker exec -it ubuntu /bin/bash`
 
 ## Saving the docker container state (result --> new image with all changes)
